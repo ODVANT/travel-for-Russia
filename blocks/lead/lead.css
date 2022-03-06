@@ -1,0 +1,13 @@
+.lead{
+	display: grid;
+	justify-self: center;
+	font-family: 'Inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 984px){
+	.lead {
+	 max-width: 100%
+	}
+ }
+
+ 

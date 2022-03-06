@@ -1,0 +1,36 @@
+.footer{
+	display: grid;
+grid-area: footer;
+	 	 justify-self: center;
+	 grid-template: 1fr / 1fr minmax(auto, 1185px);
+	 margin: 48px 24px;
+	 max-width: 1184px;
+	}
+
+    
+	@media screen and (max-width:1140px) {
+		.footer{
+			max-width: 928px;
+			margin: 88px 24px 24px;
+		}
+		
+	}
+	@media screen and(max-width:968px) {
+		.footer{
+			max-width: 720px;
+			margin: 88px 24px 24px;
+		}
+	
+		
+	}
+	
+	@media screen and (max-width:568px) {
+	.footer{
+		display: grid;
+		max-width: 186px;
+		margin: 24px 16px 16px;
+		justify-self: auto;
+	}
+		
+	}
+	

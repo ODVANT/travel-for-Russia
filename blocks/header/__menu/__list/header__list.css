@@ -1,0 +1,8 @@
+.header__list{
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: end;
+	padding-top: 10px;
+	}
+
+	

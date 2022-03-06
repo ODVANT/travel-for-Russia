@@ -1,0 +1,9 @@
+.cover{
+    display: grid;
+	 justify-self: center;
+	 	grid-template: 1fr/ minmax(auto, 1185px);
+		 font-family: Inter, Arial, Helvetica, sans-serif;
+  }
+  
+  
+

@@ -1,0 +1,8 @@
+.content{
+  grid-area: content;
+  display: grid;
+  justify-content: center;
+  grid-template: 1fr / minmax(auto, 1185px);
+  grid-row-gap: 92px;
+}
+
